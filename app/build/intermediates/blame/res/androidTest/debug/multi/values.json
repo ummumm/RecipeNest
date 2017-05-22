@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Richy\\.android\\build-cache\\dd7367d2175319e24c2ca6fa3d522b903fc89155\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]
