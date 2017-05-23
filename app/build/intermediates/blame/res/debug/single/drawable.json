@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -80,6 +84,10 @@
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
@@ -116,12 +124,20 @@
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\show.png",
         "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\drawable\\show.png"
     },
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -162,5 +178,9 @@
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\design_password_eye.xml"
     }
 ]

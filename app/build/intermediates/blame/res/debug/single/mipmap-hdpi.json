@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\seerecipes.png",
+        "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-hdpi\\seerecipes.png"
+    },
+    {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\addrecipe.png",
+        "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-hdpi\\addrecipe.png"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }

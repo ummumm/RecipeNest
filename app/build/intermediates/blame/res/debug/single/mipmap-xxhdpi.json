@@ -1,10 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\seerecipes.png",
+        "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-xxhdpi\\seerecipes.png"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\addrecipe.png",
+        "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\mipmap-xxhdpi\\addrecipe.png"
     }
 ]

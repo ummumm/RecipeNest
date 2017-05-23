@@ -6,10 +6,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
 
-/**
- * Created by Quoc Nguyen on 13-Dec-16.
- */
-
 public class SQLiteHelper extends SQLiteOpenHelper {
 
     public SQLiteHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
@@ -21,17 +17,17 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         database.execSQL(sql);
     }
 
-    public void insertData(String name, String price, byte[] image, String moblie_no){
+    public void insertData(String name, String desciption, byte[] image, String email){
         SQLiteDatabase database = getWritableDatabase();
-        String sql = "INSERT INTO FOODS VALUES (NULL, ?, ?, ?, ?)";
+        String sql = "INSERT INTO FOODS2 VALUES (NULL, ?, ?, ?, ?)";
 
         SQLiteStatement statement = database.compileStatement(sql);
         statement.clearBindings();
 
         statement.bindString(1, name);
-        statement.bindString(2, price);
+        statement.bindString(2, desciption);
         statement.bindBlob(3, image);
-        statement.bindString(4, moblie_no);
+        statement.bindString(4, email);
 
         statement.executeInsert();
     }

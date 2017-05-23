@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -170,6 +174,10 @@
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",

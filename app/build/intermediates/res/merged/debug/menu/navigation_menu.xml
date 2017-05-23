@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_addRecipe"
+        android:title="Add a recipe"
+        android:icon="@mipmap/addrecipe"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:onClick="action"/>
+    <item android:id="@+id/nav_userList"
+        android:title="My recipes"
+        android:icon="@mipmap/seerecipes"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:onClick="action"/>
+
+    <item android:id="@+id/nav_otherList"
+        android:title="World Recipes"
+        android:icon="@mipmap/seerecipes"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:onClick="action"/>
+
+    <item android:id="@+id/nav_email"
+        android:title="Email"
+        android:icon="@mipmap/seerecipes"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:onClick="action"/>
+</menu>

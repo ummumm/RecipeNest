@@ -5,7 +5,7 @@ package com.example.richy.newrecipenest;
  */
 
 public class User {
-    public String mobile_no, email, password, name;
+    private static String mobile_no, email, password, name;
 
     public User (String mobile_no,String email,String password,String name) {
         this.mobile_no = mobile_no;
@@ -14,9 +14,9 @@ public class User {
         this.name = name;
     }
 
-    public User (String mobile_no,String password) {
-        this.mobile_no = mobile_no;
-        this.email = "";
+    public User (String email,String password) {
+        this.mobile_no = "";
+        this.email = email;
         this.password = password;
         this.name = "";
     }

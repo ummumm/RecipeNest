@@ -2,22 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="b3b1b2fd9631598dcaff5e55b332615b486798e4">
-        <dex dex="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_98184b3a6e546c9f8a640af4aa255aa476f265bf\classes.dex" />
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\pre-dexed\debug\classes_9384e00ea830415ffbed68b7253fc0352901b971.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Richy\.android\build-cache\d58c5834eeb92052f1d9cbf1cc18ea4a714fb582\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f6387740ba01600839aa86caf0e1e59c8de152aa\classes.dex" />
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\pre-dexed\debug\classes_605d34645e438d42da75381344e9dfe5765e7bc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Richy\.android\build-cache\b602a5d76d9746c8cb66229b2dd48cc1aa09794e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\build\intermediates\pre-dexed\debug\classes_db5f9f8ee0aaeff15a8f94cf70722779cce9bc96.jar" />
     </item>
 
 </items>

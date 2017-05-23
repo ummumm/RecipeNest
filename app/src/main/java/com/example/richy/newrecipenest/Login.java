@@ -18,7 +18,7 @@ public class Login extends Activity {
 	boolean flag=false;
 	SQLiteDatabase db=null;
 	String moblie_no;
-	User user = new User();
+	User user;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public class Login extends Activity {
 		tv4=(EditText)findViewById(R.id.password2);
 		db=openOrCreateDatabase("mydb", MODE_PRIVATE, null);
 	//	db.execSQL("create table if not exists login(name varchar,mobile_no varchar,email_id varchar,password varchar,flag varchar)");
-		
+
 		im.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -61,11 +61,11 @@ public class Login extends Activity {
 		finish();
 		break;
 	 case R.id.start:
-		String mobile_no=tv1.getText().toString();
+		String email=tv1.getText().toString();
 		String password=tv4.getText().toString();
-		if(mobile_no==null||mobile_no==""||mobile_no.length()<10)
+		if(email==null||email==""||email.length()<10)
 		{
-			show("Please Enter Correct mobile number.");
+			show("Please Enter Correct email.");
 		}
 		else if(password==null||password==""||password.length()<6)
 		{
@@ -73,20 +73,19 @@ public class Login extends Activity {
 		}
 		else
 		{		
-			Cursor c=db.rawQuery("select * from login where mobile_no='"+mobile_no+"' and password='"+password+"'",null);
-
-			user.setMobile_no(mobile_no);
+			Cursor c=db.rawQuery("select * from login where email_id='"+email+"' and password='"+password+"'",null);
+			user = new User(email, password);
 			c.moveToFirst();
 			if(c.getCount()>0)
 			{
-			i=new Intent(this,Menu.class);
+			i=new Intent(this,AllFootList.class);
 			startActivityForResult(i,500);
 			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left); 
 			db.close();
 			finish();
 			}
 			else
-				show("Wrong Password or Mobile number.");
+				show("Wrong Password or Email.");
 			
 		}
 		break;
@@ -101,5 +100,5 @@ public class Login extends Activity {
 	{
 	Toast.makeText(this, str, Toast.LENGTH_LONG).show();
 	}
-	
+
 }

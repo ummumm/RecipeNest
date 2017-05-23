@@ -57,7 +57,7 @@ public class Signin extends Activity {
 	case R.id.login: 
 		i=new Intent(this,Login.class);
 		startActivityForResult(i, 500);
-		overridePendingTransition(R.anim.slide_in_top, R.anim.slide_out_bottom); 
+		overridePendingTransition(R.anim.slide_in_bottom, R.anim.slide_out_top);
 		finish();
 		break;
 	case R.id.signin:
@@ -84,13 +84,13 @@ public class Signin extends Activity {
 		else
 		{
 			db.execSQL("insert into login values('"+name+"','"+mobile_no+"','"+email_id+"','"+password+"','nothing')");
-			i=new Intent(this,Menu.class);
+			i=new Intent(this,AllFootList.class);
 			startActivityForResult(i, 500);
 			overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left); 
 			db.close();
 			finish();
 
-			user.setMobile_no(mobile_no);
+			user.setEmail(email_id);
 		}
 		break;
 	}

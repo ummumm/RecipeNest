@@ -9,30 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Welcome">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.richy.newrecipenest.Login"
-            ></activity>
+
         <activity
             android:name="com.example.richy.newrecipenest.Signin"
             ></activity>
         <activity
             android:name="com.example.richy.newrecipenest.MainActivity"
             android:label="Add a recipe"
-            android:parentActivityName=".Menu"
-            ></activity>
-        <activity
-            android:name="com.example.richy.newrecipenest.Menu"
             ></activity>
         <activity android:name="com.example.richy.newrecipenest.FoodList"
-            android:label="Food List"
-            android:parentActivityName=".Menu"
+            android:label="My recipes"
+            ></activity>
+        <activity
+            android:name="com.example.richy.newrecipenest.AllFootList"
+            android:label="World recipes"
+            ></activity>
+        <activity android:name="com.example.richy.newrecipenest.sendem"
+            android:label="Email"
             ></activity>
     </application>
 

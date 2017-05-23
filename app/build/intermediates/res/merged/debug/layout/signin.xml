@@ -1,16 +1,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" 
-        android:background="#999999"
+        android:background="@drawable/background"
+        android:padding="20dp"
         >
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
      <EditText
         android:id="@+id/email_id"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/phone"
         android:layout_centerVertical="true"
         android:ems="10"
         android:hint="Email id"
+         android:textColorHint="#000000"
         android:maxLength="40"
         android:inputType="textEmailAddress" >
 
@@ -18,24 +27,26 @@
 
     <EditText
         android:id="@+id/phone"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/email_id"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:maxLength="10"
         android:hint="Mobile No."
+        android:textColorHint="#000000"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/phone"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:maxLength="30"
         android:hint="Name"
+        android:textColorHint="#000000"
         android:inputType="textPersonName">
         <requestFocus />
       </EditText>  
@@ -78,33 +89,37 @@
                 android:focusable="true"
                 android:focusableInTouchMode="true"
                 android:hint="Password"
+                android:textColorHint="#000000"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true" />
 
         </RelativeLayout>
 
-    <Button
+    <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="Log in" 
+        android:text="Log in"
+        android:textColor="#000000"
         android:onClick="action"
-        android:textSize="20sp"/>
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/signin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/signin"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/rl"
         android:layout_alignRight="@+id/rl"
         android:layout_below="@+id/rl"
         android:layout_marginTop="10dp"
-        android:text="Continue.."
+        android:text="Sign Up"
+        android:textColor="#000000"
         android:onClick="action"
-        android:textSize="20sp" />
+        android:textSize="15sp"
+        android:theme="@style/MyButton"/>
 
 </RelativeLayout>

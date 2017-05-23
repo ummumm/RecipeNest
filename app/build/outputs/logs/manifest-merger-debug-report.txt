@@ -19,14 +19,16 @@ ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipe
 		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:4:22-77
 application
 ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:5:5-37:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Richy\.android\build-cache\b602a5d76d9746c8cb66229b2dd48cc1aa09794e\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Richy\.android\build-cache\db89764b4269fdb7256e50e3dcf718ae42df1ed0\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Richy\.android\build-cache\324f066dcd11147a53a430405bf63eaa6b7957e3\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Richy\.android\build-cache\3538f30778b065c3df416b25f1358bedc4db9f35\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Richy\.android\build-cache\c7ea56b3565ffac61211b3c2217b7b4b0ff898c9\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Richy\.android\build-cache\cf22e134137092141397576d1202aef3c29c6244\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Richy\.android\build-cache\ee8857790b0d32a465310eb084d3e42a4cc5709a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Richy\.android\build-cache\f873983b946b056f1dff127088f26091f0567f63\output\AndroidManifest.xml:9:5-20
 	android:label
@@ -41,10 +43,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ri
 		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.richy.newrecipenest.Welcome
+activity#com.example.richy.newrecipenest.Login
 ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:12:19-42
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:12:19-40
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -55,48 +57,51 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:16:27-74
-activity#com.example.richy.newrecipenest.Login
-ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:19:9-21:25
-	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:20:13-65
 activity#com.example.richy.newrecipenest.Signin
-ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:22:9-24:25
+ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:20:9-22:25
 	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:23:13-66
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:21:13-66
 activity#com.example.richy.newrecipenest.MainActivity
-ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:25:9-29:25
+ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:23:9-26:25
 	android:label
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:27:13-41
-	android:parentActivityName
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:28:13-47
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:25:13-41
 	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:26:13-72
-activity#com.example.richy.newrecipenest.Menu
-ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:30:9-32:25
-	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:31:13-64
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:24:13-72
 activity#com.example.richy.newrecipenest.FoodList
-ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:33:9-36:25
+ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:27:9-29:25
 	android:label
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:34:13-38
-	android:parentActivityName
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:35:13-47
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:28:13-39
 	android:name
-		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:33:19-74
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:27:19-74
+activity#com.example.richy.newrecipenest.AllFootList
+ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:30:9-33:25
+	android:label
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:32:13-42
+	android:name
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:31:13-71
+activity#com.example.richy.newrecipenest.sendem
+ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:34:9-36:25
+	android:label
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:35:13-34
+	android:name
+		ADDED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml:34:19-72
 uses-sdk
 INJECTED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Richy\.android\build-cache\d58c5834eeb92052f1d9cbf1cc18ea4a714fb582\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Richy\.android\build-cache\b602a5d76d9746c8cb66229b2dd48cc1aa09794e\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Richy\.android\build-cache\db89764b4269fdb7256e50e3dcf718ae42df1ed0\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Richy\.android\build-cache\324f066dcd11147a53a430405bf63eaa6b7957e3\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Richy\.android\build-cache\3538f30778b065c3df416b25f1358bedc4db9f35\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Richy\.android\build-cache\c7ea56b3565ffac61211b3c2217b7b4b0ff898c9\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Richy\.android\build-cache\cf22e134137092141397576d1202aef3c29c6244\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Richy\.android\build-cache\ee8857790b0d32a465310eb084d3e42a4cc5709a\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Richy\.android\build-cache\f873983b946b056f1dff127088f26091f0567f63\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml
@@ -104,16 +109,19 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ri
 		INJECTED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Richy\Downloads\Compressed\food-sqlite-demo-master\NewRecipeNest\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Richy\.android\build-cache\d58c5834eeb92052f1d9cbf1cc18ea4a714fb582\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Richy\.android\build-cache\b602a5d76d9746c8cb66229b2dd48cc1aa09794e\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Richy\.android\build-cache\db89764b4269fdb7256e50e3dcf718ae42df1ed0\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Richy\.android\build-cache\324f066dcd11147a53a430405bf63eaa6b7957e3\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Richy\.android\build-cache\3538f30778b065c3df416b25f1358bedc4db9f35\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Richy\.android\build-cache\c7ea56b3565ffac61211b3c2217b7b4b0ff898c9\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Richy\.android\build-cache\cf22e134137092141397576d1202aef3c29c6244\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\ad8ba0e31096d45fda8144e9e5a18f806c5a050e\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Richy\.android\build-cache\bdd01ae5bbfb0242dbfef4ddfaa58b47052d9dc6\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Richy\.android\build-cache\ee8857790b0d32a465310eb084d3e42a4cc5709a\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Richy\.android\build-cache\257e23df90311aa74435caaadf6f474128d18f28\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Richy\.android\build-cache\6e742f5b1872beda12d6bb8c6535aeda9465fd55\output\AndroidManifest.xml:26:9-47

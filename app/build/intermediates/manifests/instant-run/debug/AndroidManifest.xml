@@ -21,24 +21,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.richy.newrecipenest.Welcome" >
+        <activity android:name="com.example.richy.newrecipenest.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.richy.newrecipenest.Login" />
         <activity android:name="com.example.richy.newrecipenest.Signin" />
         <activity
             android:name="com.example.richy.newrecipenest.MainActivity"
-            android:label="Add a recipe"
-            android:parentActivityName="com.example.richy.newrecipenest.Menu" />
-        <activity android:name="com.example.richy.newrecipenest.Menu" />
+            android:label="Add a recipe" />
         <activity
             android:name="com.example.richy.newrecipenest.FoodList"
-            android:label="Food List"
-            android:parentActivityName="com.example.richy.newrecipenest.Menu" />
+            android:label="My recipes" />
+        <activity
+            android:name="com.example.richy.newrecipenest.AllFootList"
+            android:label="World recipes" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

@@ -10,7 +10,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
     User user = new User();
     final int REQUEST_CODE_GALLERY = 999;
 
-    public static SQLiteHelper sqLiteHelper;
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
+
+    //public static SQLiteHelper sqLiteHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +44,15 @@ public class MainActivity extends AppCompatActivity {
 
         init();
 
-        sqLiteHelper = new SQLiteHelper(this, "FoodDB.sqlite", null, 1);
+        /*sqLiteHelper = new SQLiteHelper(this, "FoodDB.sqlite", null, 1);
 
         sqLiteHelper.queryData("CREATE TABLE IF NOT EXISTS FOODS(Id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR, price VARCHAR, image BLOB, mobile_no VARCHAR)");
+*/      mDrawerLayout = (DrawerLayout) findViewById(R.id.activity_main);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         btnChoose.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,16 +65,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final String mobile_no = user.getMobile_no();
+        final String email = user.getEmail();
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
-                    sqLiteHelper.insertData(
+                    AllFootList.sqLiteHelper.insertData(
                             edtName.getText().toString().trim(),
                             edtPrice.getText().toString().trim(),
                             imageViewToByte(imageView),
-                            mobile_no
+                            email
                     );
                     Toast.makeText(getApplicationContext(), "Added successfully!", Toast.LENGTH_SHORT).show();
                     edtName.setText("");
@@ -76,13 +88,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnList.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, FoodList.class);
-                startActivity(intent);
-            }
-        });
     }
 
     private byte[] imageViewToByte(ImageView image) {
@@ -136,9 +141,42 @@ public class MainActivity extends AppCompatActivity {
         edtPrice = (EditText) findViewById(R.id.edtPrice);
         btnChoose = (Button) findViewById(R.id.btnChoose);
         btnAdd = (Button) findViewById(R.id.btnAdd);
-        btnList = (Button) findViewById(R.id.btnList);
         imageView = (ImageView) findViewById(R.id.imageView);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(mToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void action(MenuItem item)
+    {
+        switch(item.getItemId())
+        {
+            case R.id.nav_addRecipe:
+                startActivity(new Intent(this, MainActivity.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                break;
+
+            case R.id.nav_userList:
+                startActivity(new Intent(this, FoodList.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                break;
+
+            case R.id.nav_otherList:
+                startActivity(new Intent(this, AllFootList.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                break;
+
+            case R.id.nav_email:
+                startActivity(new Intent(this, sendem.class));
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                break;
+        }
+    }
 
 }
