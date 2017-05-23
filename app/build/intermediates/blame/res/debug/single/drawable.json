@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Richy\\.android\\build-cache\\6e742f5b1872beda12d6bb8c6535aeda9465fd55\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background1.png",
+        "source": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\src\\main\\res\\drawable\\background1.png"
+    },
+    {
         "merged": "C:\\Users\\Richy\\Downloads\\Compressed\\food-sqlite-demo-master\\NewRecipeNest\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Richy\\.android\\build-cache\\257e23df90311aa74435caaadf6f474128d18f28\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },

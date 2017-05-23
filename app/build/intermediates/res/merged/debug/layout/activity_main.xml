@@ -62,6 +62,7 @@
             android:layout_toEndOf="@+id/imageView"
             android:layout_marginLeft="29dp"
             android:layout_marginStart="29dp"
+            android:textColor="#FFFF"
             android:theme="@style/MyButton"/>
 
         <Button
@@ -72,6 +73,7 @@
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="38dp"
+            android:textColor="#FFFF"
             android:theme="@style/MyButton"/>
     </RelativeLayout>
 

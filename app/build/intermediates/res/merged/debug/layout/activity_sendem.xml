@@ -74,7 +74,8 @@
             app:layout_constraintLeft_toLeftOf="parent"
             android:layout_marginLeft="7dp"
             android:layout_marginRight="7dp"
-            android:theme="@style/MyButton"/>
+            android:theme="@style/MyButton"
+            android:textColor="#FFFF"/>
 
 
 

@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
-    android:background="@drawable/background"
+    android:background="@drawable/background1"
     android:padding="20dp">
 
     <ImageView
@@ -65,7 +65,8 @@
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="Email id"
-        android:textColorHint="#000000"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
         android:maxLength="40"
         android:inputType="textEmailAddress">
 
@@ -77,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register Here"
-        android:textColor="#000000"
+        android:textColor="#FFFF"
         android:onClick="action"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -95,6 +96,7 @@
         android:textSize="15sp"
         android:onClick="action"
         android:text="Login"
+        android:textColor="#FFFF"
         android:theme="@style/MyButton"/>
 
 </RelativeLayout>

@@ -10,7 +10,7 @@
         android:onClick="action"/>
     <item android:id="@+id/nav_userList"
         android:title="My recipes"
-        android:icon="@mipmap/seerecipes"
+        android:icon="@mipmap/myrecipe"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:clickable="true"
@@ -26,7 +26,7 @@
 
     <item android:id="@+id/nav_email"
         android:title="Email"
-        android:icon="@mipmap/seerecipes"
+        android:icon="@mipmap/email"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:clickable="true"

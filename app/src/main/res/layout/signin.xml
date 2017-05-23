@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" 
-        android:background="@drawable/background"
+        android:background="@drawable/background1"
         android:padding="20dp"
         >
 
@@ -19,7 +19,8 @@
         android:layout_centerVertical="true"
         android:ems="10"
         android:hint="Email id"
-         android:textColorHint="#000000"
+         android:textColorHint="#FFFF"
+         android:textColor="#FFFF"
         android:maxLength="40"
         android:inputType="textEmailAddress" >
 
@@ -34,7 +35,8 @@
         android:ems="10"
         android:maxLength="10"
         android:hint="Mobile No."
-        android:textColorHint="#000000"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
         android:inputType="number" />
 
     <EditText
@@ -46,7 +48,8 @@
         android:ems="10"
         android:maxLength="30"
         android:hint="Name"
-        android:textColorHint="#000000"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
         android:inputType="textPersonName">
         <requestFocus />
       </EditText>  
@@ -101,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Log in"
-        android:textColor="#000000"
+        android:textColor="#FFFF"
         android:onClick="action"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -117,7 +120,7 @@
         android:layout_below="@+id/rl"
         android:layout_marginTop="10dp"
         android:text="Sign Up"
-        android:textColor="#000000"
+        android:textColor="#FFFF"
         android:onClick="action"
         android:textSize="15sp"
         android:theme="@style/MyButton"/>
